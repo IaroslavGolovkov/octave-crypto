@@ -1,0 +1,7 @@
+# name: example_crypto_alphabet
+# type: sq_string
+# elements: 1
+# length: 28
+ .QWERTYUIOPASDFGHJKLZXCVBNM
+
+
