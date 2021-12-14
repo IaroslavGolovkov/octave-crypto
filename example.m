@@ -11,6 +11,6 @@ encrypted_text = alphabetcipher(example_text, example_alphabet, example_crypto_a
 decrypted_text = alphabetdecipher(encrypted_text, example_alphabet, example_crypto_alphabet)
 
 disp('Caesar cipher example');
-cyclic_alphabet = textror(example_alphabet, 1);
+cyclic_alphabet = [example_alphabet(1:2) textror(example_alphabet(3:end), 1)];
 encrypted_text = alphabetcipher(example_text, example_alphabet, cyclic_alphabet)
 decrypted_text = alphabetdecipher(encrypted_text, example_alphabet, cyclic_alphabet)
